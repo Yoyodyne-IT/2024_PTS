@@ -1,4 +1,4 @@
-# Hack.lu 2023 Workshop
+# Pass the Salt 2024 Workshop
 
    Managing spam, phishing and other boring tasks with your users and constituents
 
@@ -17,7 +17,7 @@ the demo interfaces, you do not need deep sysadmin skills and some python should
 
 If you'e setting up your own instances of the tools, you will need to be pretty fluent using linux.
 
-# Attendance at hack.lu 2023
+# Attendance at PTS 2023
 
 Please make sure before attending this workshop that you can install python 3
 software on your device, and your device should preferably be running Ubuntu 22.04
@@ -49,17 +49,17 @@ Integration with 3rd party services:
 
 We assume you have the following environment at your disposal:
 
-* Ubuntu 22.04 or 23.04. It can be an other similar general purpose operating system (Debian 10, Fedora),
+* Ubuntu 22.04, 23.04, or 23.10. It can be an other similar general purpose operating system (Debian 10, Fedora),
   but specialized distros such as Kali Linux are strongly discouraged and won't be supported if you have issues.
 
   **NOTE**: It is assumed that you're *not* running as root, but the account you're using is administrator (tl;dr: `sudo` works)
 
-* Python 3.10 or 3.11
+* Python 3.10, 3.11, or 3.12
 
   **NOTE**: Check it by running `python -V` in a terminal.
 
 * Basic command line tools: `curl`, `wget`, `grep`, `git`
-* [Poetry](https://github.com/python-poetry/poetry) 1.6.0 (or more recent), preferably installed this way:
+* [Poetry](https://github.com/python-poetry/poetry) 1.8.0 (or more recent), preferably installed this way:
   ```
   curl -sSL https://install.python-poetry.org | python3 -
   ```
@@ -70,8 +70,8 @@ We assume you have the following environment at your disposal:
 
 1. Clone the repository (requires `git`)
   ```bash
-  git clone https://github.com/Yoyodyne-IT/2023_Hack.lu.git
-  cd 2023_Hack.lu
+  git clone https://github.com/Yoyodyne-IT/2024_PTS.git
+  cd 2024_PTS
   ```
 
 2. Install the dependencies
