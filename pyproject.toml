@@ -6,13 +6,13 @@ authors = ["Raphaël Vinot <raphael@lookyloo.eu>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-jupyterlab = "^4.2.2"
-pylookyloo = "^1.24.0"
+jupyterlab = "^4.2.3"
+pylookyloo = "^1.25.0"
 pymisp = {version = "^2.4.194", extras = ["email", "fileobjects", "url"]}
-pyphishtanklookup = "^1.3.2"
-pypandora = "^1.8.1"
-pylacus = "^1.9.0"
-lacuscore = "^1.9.6"
+pyphishtanklookup = "^1.4.0"
+pypandora = "^1.9.0"
+pylacus = "^1.10.0"
+lacuscore = "^1.10.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^8.2.2"
